@@ -17,9 +17,7 @@ import { UploadAvatar } from './components/UploadAvatar';
 import { Profile } from './pages/Profile';
 import { OneOrder } from './pages/OneOrder';
 import { useSelector } from 'react-redux';
-import { Shop } from './components/Shop';
 import { Footer } from './components/Footer';
-import { Tamrin } from './pages/Tamrin';
 function App(){
   const {access}=useSelector(state=>state.User);
 
