@@ -61,10 +61,6 @@ function App(){
         <Route path='*' element={<Error/>}/>
           {!localStorage.getItem("access")&& (           
         <Route path="Login" element={<Login/>} />)}
-        <Route path="/Shop" element={<Shop/>}/>
-        <Route path='/Tamrin' element={<Tamrin/>}>
-
-        </Route>
      </Routes>
      <Footer/>
      
